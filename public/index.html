@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+      <h1 class="logo">Fardosa Ibrahim Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Passionate Software Developer</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <img src="fardosa.jpg" alt="Your Name">
+      <p>As a persistently driven and goal-oriented individual. I usually try to plan out my chores to maximize productivity. 
+        I am continuously being driven to study new things and develop to my maximum potential by my curiosity. 
+        My motivation for whatever I do comes from my grit and determination. As a future full-stack software developer, 
+        I enjoy learning new things, developing original concepts, and thinking of potential solutions. 
+        I hope to gain proficiency in a variety of coding languages while also enhancing my problem-solving and critical thinking skills.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Great understanding of Python data structures, i.e.: list, tuple, set, and dictionaries for storing and manipulating data.</li>
+        <li>Good understanding of concepts in OOP such as inheritance.</li>
+        <li>Ability to use ReactJs as a front-end framework to create reusable components.</li>
+        <li>Intermediate understanding of DOM manipulation in JavaScript.</li>
+        <li>Knowledgeable in version control tool, Git.</li>
+        <li>Ability to design wireframes and product prototypes using Figma, Adobe Illustrator, and Adobe Photoshop.</li>
+        <!-- Add more skills here -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Budget Calculator</h3>
+        <p>Worked on this project using React framework and what the
+            project does is it enables a user keep their budgets in check.</p>
+        <a href="https://github.com/fardosa-ibrahim/budgetcalc.git" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Digital Wallet</h3>
+        <p>Working on a digital wallet using django framework, the
+            wallet enables individuals and businesses to make online
+            transaction and also stores payment information.</p>
+        <a href=" https://github.com/fardosa-ibrahim/DigitalWallet.git" target="_blank">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Contact Manager</h3>
+        <p>ontact Manager
+            Worked on this project using React framework and this
+            project does is it enables a user to save important contacts
+            for future reference.</p>
+        <a href="https://github.com/fardosa-ibrahim/Node.git" target="_blank">View Project</a>
+      </div>
+      <!-- Add more project cards here -->
+    </div>
+  </section>
+  
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <form id="contact-form" method="post" action="/contacts">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2022 Fardosa Ibrahimm.</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
